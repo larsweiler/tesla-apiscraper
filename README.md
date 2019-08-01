@@ -44,6 +44,7 @@ If you're coming from the original repo, you can just update your instance to Lu
 ```bash
 git remote rename origin upstream
 git remote add origin https://github.com/Lunars/tesla-apiscraper.git
+git fetch origin
 git branch --set-upstream-to origin/master master
 git pull
 ```
